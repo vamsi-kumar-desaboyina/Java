@@ -32,7 +32,7 @@ public class Operators_java {
     System.out.println(a!=b);
     System.out.println(a<=b);
     System.out.println(a>b);
-    System.out.println(a>b);
+    System.out.println(a<b);
     System.out.println("----------------------------------------");
 
     //logical
@@ -64,6 +64,7 @@ public class Operators_java {
     //increment and decrement operators
     System.out.println(a); //10
     a=a++;                  // a=10   a++; then a=11;
+    a++;
     System.out.println(a); //10   a=11     
     System.out.println(b); //20
     b=b++;                 //b=20

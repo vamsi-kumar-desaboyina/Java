@@ -30,14 +30,14 @@ public class Decision_making_statements_if {
     // }
     
     //if else
-  // if(true) 
-  //   { 
-  //   System.out.println("if is true then this block is executed"); 
-  //   } 
-  // else 
-  //   { 
-  //   System.out.println("if is false then this block is executed"); 
-  //   }
+//   if(true) 
+//     { 
+//     System.out.println("if is true then this block is executed"); 
+//     } 
+//   else 
+//     { 
+//     System.out.println("if is false then this block is executed"); 
+//     }
 
   //Q)Write a java program to find out given age is eligible to vote or not? 
   // System.out.println("Enter the number: ");

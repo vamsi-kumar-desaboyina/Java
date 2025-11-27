@@ -86,14 +86,16 @@ System.out.println("Enter: ");
         case 'i':
         System.out.println("vowel "+ch);
         break;
+        default:
+            System.out.println("consonent "+ch);
+            break;
         case 'o':
         System.out.println("vowel "+ch);
         break;
         case 'u':
         System.out.println("vowel "+ch);
         break;
-        default:
-      System.out.println("consonent "+ch);
+        
     
       
      

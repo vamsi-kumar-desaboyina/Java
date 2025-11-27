@@ -36,14 +36,14 @@ public class Variables_java {
     System.out.println("default for boolean instance: "+oJava.idefaultvalue_boolean);
 
     //printing default values for static variables.
-    // System.out.println("default for byte static: "+oJava.sdefaultvalue_byte);
-    // System.out.println("default for short static: "+oJava.sdefaultvalue_short);
-    // System.out.println("default for int static: "+oJava.sdefaultvalue_int);
-    // System.out.println("default for long static: "+oJava.sdefaultvalue_long);
-    // System.out.println("default for float static: "+oJava.sdefaultvalue_float);
-    // System.out.println("default for double static: "+oJava.sdefaultvalue_double);
-    // System.out.println("default for char static: "+oJava.sdefaultvalue_char);
-    // System.out.println("default for boolean static: "+oJava.sdefaultvalue_boolean);
+     System.out.println("default for byte static: "+oJava.sdefaultvalue_byte);
+     System.out.println("default for short static: "+oJava.sdefaultvalue_short);
+     System.out.println("default for int static: "+oJava.sdefaultvalue_int);
+     System.out.println("default for long static: "+oJava.sdefaultvalue_long);
+     System.out.println("default for float static: "+oJava.sdefaultvalue_float);
+     System.out.println("default for double static: "+oJava.sdefaultvalue_double);
+     System.out.println("default for char static: "+oJava.sdefaultvalue_char);
+     System.out.println("default for boolean static: "+oJava.sdefaultvalue_boolean);
 
     //printing default values for static variables.
     System.out.println("default for byte static: "+Variables_java.sdefaultvalue_byte);
@@ -85,7 +85,7 @@ public class Variables_java {
     // System.out.println("default for boolean local: "+ldefaultvalue_boolean);
 
     int c=30;
-    System.out.println(oJava.a+" "+b+" "+c);
+    System.out.println(oJava.a+" "+Variables_java.b+" "+c);
     int d=50;
     System.out.println(d);//local has high prefarence than static.
 
