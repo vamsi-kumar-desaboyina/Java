@@ -14,6 +14,7 @@ public class ConcateArrays {
     {
       narr[i]=arr2[k++];
     }
+    System.out.println(Arrays.toString(narr));
     Arrays.sort(narr);
     for(int ele:narr)
     {

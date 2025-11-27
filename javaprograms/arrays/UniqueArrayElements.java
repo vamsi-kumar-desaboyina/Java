@@ -12,6 +12,7 @@ public class UniqueArrayElements {
           {
             count++;
           }
+          if(count>1) break;
       }
       if (count==1) {
         System.out.print(arr[i]+" ");
